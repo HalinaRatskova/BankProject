@@ -1,0 +1,17 @@
+﻿<Window x:Class="Bank.AddUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bank"
+        mc:Ignorable="d"
+        Title="Add User Account" Height="450" Width="800">
+    <StackPanel Margin="20">
+
+        <TextBlock Text="Name" FontSize="30"/>
+        <TextBox x:Name="txtNameAdd" Margin="0,10,0,20" Height="40" FontSize="30"  />
+        <TextBlock Text="Password" FontSize="30"/>
+        <PasswordBox x:Name="txtPasswordAdd" Margin="0,10,0,30" Height="40" FontSize="30" />
+        <Button x:Name="btnAddUser" Content="Add User" Height="50" FontSize="30" Click="btnAddUser_Click"/>
+    </StackPanel>
+</Window>
